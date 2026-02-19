@@ -5,7 +5,6 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 **Oleh:** Wisma Jaya Laksana  
-**Lihat Postingan LinkedIn:** [Link Postingan LinkedIn Kamu]
 
 ## 📌 Project Overview
 Project ini bertujuan untuk membantu bisnis retail online memahami perilaku pelanggan mereka secara mendalam. Saya menggunakan metode **RFM (Recency, Frequency, Monetary)** untuk mengelompokkan pelanggan ke dalam berbagai segmen strategis. 
