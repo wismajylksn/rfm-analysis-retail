@@ -35,6 +35,12 @@ Berdasarkan visualisasi data yang telah dibuat:
 - **Pertahankan yang Setia:** Fokuskan budget *loyalty program*, layanan VIP, atau diskon eksklusif untuk memanjakan segmen *Champions* agar mereka tidak direbut kompetitor.
 - **Reaktivasi Pelanggan Tidur:** Kirimkan *email marketing* atau promo *win-back* (diskon besar bersyarat) khusus untuk sebagian pelanggan *Hibernating* yang masih memiliki potensi aktif kembali.
 
+- ## 🤖 Update: Machine Learning untuk Customer Segmentation
+Sebagai pelengkap dari analisis berbasis *rules* (RFM), saya menerapkan algoritma **Unsupervised Machine Learning (K-Means Clustering)** untuk menemukan pola tersembunyi dari pelanggan secara otomatis.
+- **Metodologi:** Standarisasi data menggunakan `StandardScaler` dan penentuan jumlah kelompok (*cluster*) optimal menggunakan **Elbow Method** (K=4).
+- **Key Insight:** AI berhasil memisahkan pelanggan ke dalam 4 segmen bisnis: *Super VIP (Whales)*, *Loyal Customers*, *At Risk*, dan *Churned (Lost)*. 
+- **Business Impact:** Ditemukan **13 pelanggan Super VIP** yang memiliki frekuensi transaksi dan omzet yang sangat ekstrem dibandingkan ribuan pelanggan lainnya. Segmentasi otomatis ini memungkinkan tim bisnis untuk membuat kampanye marketing *B2B* (grosir) yang terpisah dari pelanggan eceran tanpa harus menyortir data secara manual.
+
 ## 📂 Cara Menjalankan Project Ini
 1. Clone repository ini: `git clone https://github.com/wismajylksn/rfm-analysis-retail.git`
 2. Buka notebook `latihan-rfm-wisma.ipynb` untuk melihat detail tahapan *coding* Python.
